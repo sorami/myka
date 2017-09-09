@@ -1,0 +1,3 @@
+graft myka/templates
+graft myka/static
+include myka/schema.sql

@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+<div id=answer>
+  {% if correct %}
+    <h1 id=yes>Yes !</h1>
+  {% else %}
+    <h1 id=no>No ...</h1>
+  {% endif %}
+
+  <div id=text>{{ text }}</div>
+
+  <div id=lang>{{ lang_msg }} - <a href="https://{{lang}}.wikipedia.org/wiki/{{text}}">Wikipedia</a></div>
+
+  <div id=next> <a href="/">next</a></div>
+</div>
+{% endblock %}
