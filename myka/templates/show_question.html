@@ -7,7 +7,6 @@
 
   <form action="{{ url_for('show_answer') }}" method=post>
     <input type="hidden" name="id" value={{title.id}}>
-    <input type="hidden" name="text" value={{title.text}}>
     <button type='submit' name='action' value='my'>Burmese (my)</button>
     <button type='submit' name='action' value='ka'>Georgian (ka)</button>
   </form>

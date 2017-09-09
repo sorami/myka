@@ -26,12 +26,11 @@ def show_title():
 @app.route('/answer', methods=['POST'])
 def show_answer():
     title_id = request.form["id"]
-    text = request.form["text"]
     answer = request.form["action"]
 
     db = get_db()
-    cur = db.execute("select lang from titles where id = {}".format(title_id));
-    lang = cur.fetchone()[0];
+    cur = db.execute("select lang, text from titles where id = {}".format(title_id));
+    lang, text = cur.fetchone()[0:2];
     correct = (lang == answer)
 
     if lang == "my":
