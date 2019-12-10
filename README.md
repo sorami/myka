@@ -1,7 +1,13 @@
 # my/ka
-![my/ka](capture.png)
 
 Burmese or Georgian ?
+
+![my/ka](capture.png)
+
+![my](capture_my.png)
+
+![ka](capture_ka.png)
+
 
 - Retrieved page titles from Brumese and Georgian Wikipedia - [scrape.ipynb](myka/data/wikipedia/scrape.ipynb)
 - Flask for the Web
