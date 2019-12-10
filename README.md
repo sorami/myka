@@ -11,6 +11,7 @@ Burmese or Georgian ?
 
 - Retrieved page titles from Brumese and Georgian Wikipedia - [scrape.ipynb](myka/data/wikipedia/scrape.ipynb)
 - Flask for the Web
+- Noto Serif fonts for the characters
 
 Characters of both langauges looks beautiful.
 
