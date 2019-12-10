@@ -7,3 +7,16 @@ Burmese or Georgian ?
 - Flask for the Web
 
 Characters of both langauges looks beautiful.
+
+## How to run
+
+```
+$ pip install flask
+
+$ git clone https://github.com/sorami/myka.git
+$ cd myka
+$ export FLASK_APP=myka
+$ flask run
+```
+
+... and access http://127.0.0.1:5000/ with your browser!
